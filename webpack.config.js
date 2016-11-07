@@ -23,7 +23,8 @@ module.exports = {
   resolve: {
     root: __dirname,
     alias: {
-      applicationStyles: 'app/styles/app.scss'
+      applicationStyles: 'app/styles/app.scss',
+      TodoApp: 'app/controllers/TodoApp.jsx'
     },
     extensions: ['', '.js', '.jsx']
   },
@@ -46,3 +47,4 @@ module.exports = {
   },
   devtool: 'cheap-module-eval-source-map'
 };
+
