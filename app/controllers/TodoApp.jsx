@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Search from 'Search'
 import TodoList from 'TodoList'
+import Todo from 'Todo'
 
 export default class TodoApp extends Component {
   render(){
@@ -9,6 +10,7 @@ export default class TodoApp extends Component {
         <h1>Hello from the TodoComponent.</h1>
         <Search />
         <TodoList />
+        <Todo />
       </div>
     )
   }

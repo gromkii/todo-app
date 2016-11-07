@@ -27,6 +27,7 @@ module.exports = {
       TodoApp: 'app/controllers/TodoApp.jsx',
       Search: 'app/controllers/Search.jsx',
       TodoList:'app/controllers/TodoList.jsx',
+      Todo: 'app/controllers/Todo.jsx',
     },
     extensions: ['', '.js', '.jsx']
   },
