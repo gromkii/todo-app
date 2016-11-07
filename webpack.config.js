@@ -28,6 +28,7 @@ module.exports = {
       Search: 'app/controllers/Search.jsx',
       TodoList:'app/controllers/TodoList.jsx',
       Todo: 'app/controllers/Todo.jsx',
+      AddTodo: 'app/controllers/AddTodo.jsx',
     },
     extensions: ['', '.js', '.jsx']
   },

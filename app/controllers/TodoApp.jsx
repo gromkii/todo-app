@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Search from 'Search'
 import TodoList from 'TodoList'
 import Todo from 'Todo'
+import AddTodo from 'AddTodo'
 
 export default class TodoApp extends Component {
   render(){
@@ -11,6 +12,7 @@ export default class TodoApp extends Component {
         <Search />
         <TodoList />
         <Todo />
+        <AddTodo />
       </div>
     )
   }
