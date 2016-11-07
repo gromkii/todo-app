@@ -5,8 +5,7 @@ export default class Todo extends Component {
     let {key, id, text} = this.props;
     return (
       <div>
-        <h3>{id}</h3>
-        <h3>{text}</h3>
+       <h4>{id} - {text}</h4> 
       </div>
     )
   }

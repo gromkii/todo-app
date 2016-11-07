@@ -20,7 +20,6 @@ export default class TodoApp extends Component {
           id:3,
           text:'Fix this app.'
         }
-
       ]     
     }
   }
@@ -33,7 +32,6 @@ export default class TodoApp extends Component {
         <h1>Hello from the TodoComponent.</h1>
         <Search />
         <TodoList todos={todos}/>
-        <Todo />
         <AddTodo />
       </div>
     )
